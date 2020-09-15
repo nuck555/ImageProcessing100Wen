@@ -17,7 +17,7 @@ def BGR2GRAY(img):
 
 # LoG filter
 def LoG_filter(img, K_size=5, sigma=3):
-	H, W, C = img.shape
+	H, W= img.shape
 
 	# zero padding
 	pad = K_size // 2
