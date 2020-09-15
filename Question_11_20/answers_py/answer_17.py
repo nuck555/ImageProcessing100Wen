@@ -16,7 +16,7 @@ def BGR2GRAY(img):
 
 # laplacian filter
 def laplacian_filter(img, K_size=3):
-	H, W, C = img.shape
+	H, W = img.shape
 
 	# zero padding
 	pad = K_size // 2
