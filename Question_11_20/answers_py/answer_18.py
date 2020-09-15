@@ -15,7 +15,7 @@ def BGR2GRAY(img):
 
 # emboss filter
 def emboss_filter(img, K_size=3):
-	H, W, C = img.shape
+	H, W= img.shape
 
 	# zero padding
 	pad = K_size // 2
